@@ -11,9 +11,9 @@ function Users (props) {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const size = 100;
+        const size = 10000;
         let pageNumber = 1;
-        let totalPages = 10000;
+        let totalPages = 100;
         const users = [];
 
         while (pageNumber <= totalPages) {
