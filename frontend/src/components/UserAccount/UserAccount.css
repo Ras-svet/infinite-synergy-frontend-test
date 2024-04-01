@@ -1,0 +1,167 @@
+.account {
+  padding: 10px 20px;
+  border: 2px solid rgb(152, 66, 152);
+  border-radius: 30px;
+  width: 689px;
+}
+
+.account__edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 18px;
+}
+
+.account__edit-block {
+  display: flex;
+  flex-direction: row;
+  gap: 8px
+}
+
+.account__id {
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.account__id-edit {
+  background-color: transparent;
+  border: 0;
+  max-width: 80px;
+}
+
+.account__id-edit:focus {
+  border: 1px solid rgb(152, 66, 152);
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0px 0px 20px #8B7D99;
+}
+
+.account__info {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+.account__info-title {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFF;
+  justify-self: end;
+}
+
+.account__info-data {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFF;
+  max-width: 253px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.account__info-data_edit {
+  background-color: transparent;
+  border: 0;
+  max-width: auto;
+  margin: 0;
+  padding: 0;
+  align-self: start;
+  padding: 3px;
+}
+
+.account__info-data_edit:focus {
+  border: 1px solid rgb(152, 66, 152);
+  box-shadow: 0px 0px 20px #8B7D99;
+  border-radius: 5px;
+  outline: none;
+}
+
+.account__buttons {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+}
+
+.acount__button {
+	font-size: 18px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+  max-width: 50%;
+}
+
+.account__button-edit {
+	color: #fff;
+	font-weight: 400;
+}
+
+.account__button-save {
+	color: #fff;
+	background-color: rgb(152, 66, 152);
+	width: 50%;
+	padding: 8px 0;
+	border: none;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.account__button-save:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.account__button-save_disable {
+	background-color: #F8F8F8;
+	color: #C2C2C2;
+}
+
+.account__button-save_disable:hover {
+	cursor: default;
+	opacity: 1;
+}
+
+.account__button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.account__error {
+	min-height: 16px;
+	margin: 0;
+	padding: 0;
+	color: #EE3465;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.account__allgood {
+	font-size: 18px;
+	color: green;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
