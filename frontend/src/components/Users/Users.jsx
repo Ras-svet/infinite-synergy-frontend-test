@@ -59,7 +59,7 @@ function Users (props) {
           height={340}
           itemCount={userList.length}
           itemSize={30}
-          width={210}
+          width={310}
         >
           {Row}
         </List>
